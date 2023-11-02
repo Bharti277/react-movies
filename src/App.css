@@ -1,2 +1,14 @@
 .App {
 }
+.grid {
+  display: grid;
+  gap: 3rem;
+}
+.grid-4-cols {
+  grid-template-columns: repeat(4, 1fr);
+}
+.card {
+  width: 25rem;
+  max-width: 30rem;
+  min-height: 30rem;
+}
