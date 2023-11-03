@@ -1,5 +1,10 @@
 .App {
 }
+.container {
+  max-width: 140rem;
+  margin: auto;
+  padding: 3rem;
+}
 .grid {
   display: grid;
   gap: 3rem;
@@ -7,8 +12,58 @@
 .grid-4-cols {
   grid-template-columns: repeat(4, 1fr);
 }
+/* .grid a {
+  width: 12px;
+} */
 .card {
   width: 25rem;
   max-width: 30rem;
   min-height: 30rem;
+  border: 2px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card__info {
+}
+.card__info h2 {
+  text-align: center;
+}
+.card__info img {
+  width: 100%;
+}
+.search__item {
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+a:hover {
+  background-color: rgb(11, 17, 36);
+  color: blue;
+}
+a:hover h2 {
+  color: green;
+  transform: translateY(-1.3rem);
+}
+a:hover img {
+  transform: scale(1.1);
+}
+
+/* img {
+  min-width: 10rem;
+  max-height: 30rem;
+  margin: 1rem 0;
+  border-radius: 1rem;
+  transition: all 0.3s linear;
+} */
+input {
+  width: 30rem;
+  border-radius: 100px;
+  border: 1px solid #fff;
+  padding: 1rem 2rem;
+  font-size: 1.8rem;
+  margin-top: 2rem;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px,
+    rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+  outline: none;
 }
