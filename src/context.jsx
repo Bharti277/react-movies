@@ -22,7 +22,7 @@ const AppProvider = ({ children }) => {
       } else {
         setIsError({
           show: true,
-          msg: data.error,
+          msg: data.Error,
         });
       }
     } catch (error) {
@@ -33,7 +33,7 @@ const AppProvider = ({ children }) => {
   useEffect(() => {
     let timer = setTimeout(() => {
       getMovies(`${API_URL}&s=${query}`);
-    }, 800);
+    }, 400);
 
     return () => clearTimeout(timer);
   }, [query]);

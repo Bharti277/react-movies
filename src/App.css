@@ -16,8 +16,8 @@
   width: 12px;
 } */
 .card {
-  width: 25rem;
-  max-width: 30rem;
+  width: 20rem;
+  max-width: 25rem;
   min-height: 30rem;
   border: 2px solid black;
   display: flex;
