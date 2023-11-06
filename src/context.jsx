@@ -19,6 +19,10 @@ const AppProvider = ({ children }) => {
       console.log(data);
       if (data.Response === "True") {
         setMovie(data.Search);
+        setIsError({
+          show: false,
+          msg: "",
+        });
       } else {
         setIsError({
           show: true,
