@@ -12,6 +12,9 @@
 .grid-4-cols {
   grid-template-columns: repeat(4, 1fr);
 }
+.grid-4-cols a {
+  text-decoration: none;
+}
 .card {
   width: 20rem;
   max-width: 25rem;
@@ -40,10 +43,10 @@ a:hover {
 }
 a:hover h2 {
   color: green;
-  transform: translateY(-1.3rem);
+  /* transform: translateY(-1.3rem); */
 }
 a:hover img {
-  transform: scale(1.1);
+  /* transform: scale(1.1); */
 }
 
 /* img {
