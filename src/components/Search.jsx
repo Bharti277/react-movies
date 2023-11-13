@@ -14,7 +14,7 @@ const Search = () => {
         />
       </form>
       <div className="card__error">
-        <p>{isError.show && isError.msg}</p>
+        <p className="error__show">{isError.show && isError.msg}</p>
       </div>
     </div>
   );
