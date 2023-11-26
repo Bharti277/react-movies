@@ -26,8 +26,10 @@ const SingleMovie = () => {
   console.log(movie, "movieid");
   return (
     <div className="single__movie__card">
-      <h2>{movie.Title}</h2>
-      <img src={movie.Poster} alt={movie.Poster} />
+      <div className="single__card">
+        <h2>{movie.Title}</h2>
+        <img src={movie.Poster} alt={movie.Poster} />
+      </div>
     </div>
   );
 };
